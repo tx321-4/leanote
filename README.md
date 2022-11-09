@@ -3,6 +3,17 @@
 [![Build Status](https://travis-ci.org/leanote/leanote.svg)](https://travis-ci.org/leanote/leanote)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/leanote/leanote?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+## 后台管理汉化 2022.11.09
+* 没有搭建开发环境，直接源码修改
+* 文件夹 `app/views/admin` 参考 `app/views/member`  【admin 记得做备份】
+* 语法是 `{{msg .英文}}` 转化为中文
+* 英文对照表 路径 `messages/zh-cn/msg.conf` 少了中文就自己添加
+* 配置文件 app.con `i18n.default_language= ` 要修改为`zh-cn`
+* 需要重新运行 leanote 才能生效
+
+### 进度表
+- [x] top.html 【2022.11.09】
+
 ## 1. Introduction
 
 Leanote, not just a notepad!
