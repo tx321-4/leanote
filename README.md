@@ -13,6 +13,7 @@
 
 ### 进度表
 - [x] top.html 【2022.11.09】
+- [x] nav.html 【2022.11.09】
 
 ## 1. Introduction
 
